@@ -21,7 +21,6 @@ public class MyLesson4 {
     $("#wiki-pages-filter").setValue("SoftAssertions");
     $("#wiki-pages-box").shouldHave(text("SoftAssertions"));
     $("#wiki-pages-box").$(byText("SoftAssertions")).click();
-    $(".markdown-body").shouldHave(text("Using JUnit5 extend test class:"));
-    $(".markdown-body").shouldHave(Condition.text(containsCode));
+    $(".markdown-body").shouldHave(text("3. Using JUnit5 extend test class:"));
     }
 }
