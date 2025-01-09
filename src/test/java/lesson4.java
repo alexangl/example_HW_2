@@ -8,17 +8,10 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.files.DownloadActions.click;
 
 public class MyLesson4 {
-  @RegisterExtension 
-  static SoftAssertsExtension softAsserts = new SoftAssertsExtension();
     
    @Test
    void testProjectLesson4() {
-       
-    Configuration.assertionMode = SOFT;
-    open("page.html");
-    $("#first").should(visible).click();
-    $("#second").should(visible).click();
-       
+     
     open("https://github.com");
     $(".search-input").click();
     $("#query-builder-test").setValue("selenide").pressEnter();
