@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.files.DownloadActions.click;
 
-public class MyLesson4 {
+public class lesson4 {
     
    @Test
    void testProjectLesson4() {
