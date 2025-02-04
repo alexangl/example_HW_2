@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class Lesson5_1 {
 
     @Test
-    void Lesson5_1_Test() {
+    void lesson5_1_Test() {
         System.setProperty("selenide.timeout", "5000");
         open("https://github.com/");
         $(byTagAndText("button", "Solutions")).hover();
